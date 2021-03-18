@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hey</title>
-	<script src="jquery-3.6.0.min.js"></script>
-	<script src="script.js"></script>
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+	<title>Glass effect</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-<div id="main">
-	
-</div>
+	<main>
+		<video autoplay muted loop id="background_video">
+			<source src="video.mp4" type="video/mp4">
+		</video>
+		<div id="open_editor" class="glass">
+			<div>Open Editor</div>
+			<div id="symbol">&#8675;</div>
+		</div>
+		<section class="glass">
+			<nav> 
+				<div id="hide">
+					Hide
+				</div>
+			</nav>
+			<textarea placeholder="lrvi qo hmar, inch uzumes gri."></textarea>
+		</section>
+	</main>
 </body>
 </html>
